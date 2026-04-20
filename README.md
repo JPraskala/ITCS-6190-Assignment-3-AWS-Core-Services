@@ -133,8 +133,11 @@ The Trigger will automatically execute the Lambda Function when it detects a CSV
 ### Approach
 My approach to creating the Trigger was to follow the instructins above and ensure the prefix and suffix are correct before adding it.
 
-### Screenshot
+### Screenshots
 <img width="1918" height="870" alt="trigger" src="https://github.com/user-attachments/assets/d515bb5f-0b34-4d57-b21e-e063ac2c44d2" />
+
+<img width="1917" height="865" alt="filtered_orders" src="https://github.com/user-attachments/assets/ddf1b25d-35f8-4974-a5d2-59b2bf1e4937" />
+
 
 
 ## 5. Create a Glue Crawler 🕸️
