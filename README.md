@@ -75,6 +75,16 @@ My approach to creating the Glue Service Role was following the instructions abo
     * `AmazonAthenaFullAccess`
 3.  Name the role (e.g., `EC2-Athena-Dashboard-Role`) and create it.
 
+#### Explanation
+Amazon EC2 is a web service that provides secure compute capacity in the cloud. EC2 is designed to make web-scale computing easier for developers.
+
+#### Approach 
+My approach to creating the EC2 instance was following the instructions above.
+
+#### Screenshot
+<img width="1918" height="900" alt="ec2_instance_profile" src="https://github.com/user-attachments/assets/f336ff0e-d6f7-4f1e-92b9-341f6dbbac66" />
+
+
 ---
 
 ## 3. Create the Lambda Function ⚙️
