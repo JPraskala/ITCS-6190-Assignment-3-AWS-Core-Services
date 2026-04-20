@@ -100,6 +100,16 @@ This function will automatically process files uploaded to the `raw/` S3 folder.
 7.  Click **Create function**.
 8.  In the **Code source** editor, replace the default code with LambdaFunction.py code for processing the raw data.
 
+### Explanation
+The Lambda Function will process the orders.csv file that will eventually be uploaded to the S3 bucket that was created earlier.
+
+### Approach
+My approach to creating the Lambda Function was by following the instructions above and pasting the code from `LambdaFunction.py` to the Code Source editor.
+
+### Screenshot
+<img width="1918" height="885" alt="lambda_function" src="https://github.com/user-attachments/assets/acdd3b21-fd13-4ae0-abe5-e4a8487fe319" />
+
+
 ---
 
 ## 4. Configure the S3 Trigger ⚡
@@ -117,6 +127,16 @@ Set up the S3 trigger to invoke your Lambda function automatically.
 --- 
 **Start Processing of Raw Data**: Now upload the Orders.csv file into the `raw/` folder of the S3 Bucket. This will automatically trigger the Lambda function.
 ---
+
+### Explanation 
+The Trigger will automatically execute the Lambda Function when it detects a CSV file in the raw directory.
+
+### Approach
+My approach to creating the Trigger was to follow the instructins above and ensure the prefix and suffix are correct before adding it.
+
+### Screenshot
+<img width="1918" height="870" alt="trigger" src="https://github.com/user-attachments/assets/d515bb5f-0b34-4d57-b21e-e063ac2c44d2" />
+
 
 ## 5. Create a Glue Crawler 🕸️
 
