@@ -301,6 +301,17 @@ My approach was to simply copy and paste the commands above.
 
 ---
 
+### Explanation
+A file called app.py is created using the nano editor. In app.py, the web application is configured so it can locate the query results.
+
+### Approach 
+My apporach was to copy and paste the Python web application code and update the placeholder variables.
+
+### Sceenshot
+
+<img width="1918" height="968" alt="step_10" src="https://github.com/user-attachments/assets/db68da4f-5a74-4bbd-bca2-17166271667c" />
+
+
 ## 11. Run the App and View Your Dashboard! 🚀
 
 1.  Execute the Python script to start the web server:
