@@ -38,6 +38,16 @@ Create the following IAM roles to grant AWS services the necessary permissions t
     * `AmazonS3FullAccess`
 5.  Give the role a descriptive name (e.g., `Lambda-S3-Processing-Role`) and create it.
 
+#### Explanation 
+The Lambda Execution Role allows a user to run code without managing a server. It is a serverless architecture, and you pay only for the compute time you consume.
+
+#### Approach
+My approach to created the Lambda was following the instructions above. I created the role by selecting AWS servce as the entity type, lambda as the use case, and the giving it the two permissions that are listed above.
+
+#### Screenshot
+<img width="1918" height="907" alt="lambda_execution_role" src="https://github.com/user-attachments/assets/0a9e2e9f-3a88-4313-9890-0880e731f288" />
+
+
 ### Glue Service Role
 
 1.  Create another IAM role for **AWS service** with the use case **Glue**.
