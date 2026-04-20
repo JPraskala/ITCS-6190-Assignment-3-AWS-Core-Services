@@ -152,6 +152,15 @@ The crawler will scan your processed data and create a data catalog, making it q
 6.  **Output**: Click **Add database** and create a new database named `orders_db`.
 7.  Finish the setup and run the crawler. It will create a new table in your `orders_db` database.
 
+### Explanation
+The Crawler will read the filtered csv file from the processed directory and create a table in the `orders_db` database.
+
+### Approach
+My approach to creating the crawler was following the instructions above, and running the crawler which created the table; this table will be executed using SQL queries.
+
+### Screenshot
+<img width="1918" height="887" alt="crawler_cloudwatch" src="https://github.com/user-attachments/assets/2f206234-ca9c-4aac-84a4-1e35efa446e9" />
+
 ---
 
 ## 6. Query Data with Amazon Athena 🔍
