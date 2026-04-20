@@ -174,6 +174,34 @@ Navigate to the **Athena** service. Ensure your data source is set to `AwsDataCa
 * **Average Order Value (AOV) per Customer**: Find the average amount spent per order for each customer.
 * **Top 10 Largest Orders in February 2025**: Retrieve the highest-value orders from a specific month.
 
+### Explanation
+The queries execute the five queries above using the processed csv file in the processed directory.
+
+### Approach
+My approach was to run test queries to ensure I am on the right track. After running the tests, if a query does not have the intended result, I delete it from the enriched folder.
+
+## Screenshots
+### Query 1
+<img width="1918" height="887" alt="query_one" src="https://github.com/user-attachments/assets/ea4215ff-b993-4736-8d51-22b3e81b4226" />
+
+### Query 2
+<img width="1918" height="898" alt="query_two" src="https://github.com/user-attachments/assets/028dafef-55e2-4e13-b3ea-6481b455c40b" />
+
+### Query 3
+<img width="1915" height="877" alt="query_three" src="https://github.com/user-attachments/assets/125a658a-1d89-406f-a139-96b885d36d20" />
+
+
+### Query 4
+<img width="1918" height="900" alt="query_four" src="https://github.com/user-attachments/assets/e7db16d4-3dc1-4675-9d27-629adfcd5113" />
+
+### Query 5
+<img width="1918" height="910" alt="query_five" src="https://github.com/user-attachments/assets/152cc9fb-c0af-467f-a9be-2d21d2494b18" />
+
+
+### Result CSVs
+<img width="1918" height="900" alt="result_csvs" src="https://github.com/user-attachments/assets/43e6c976-7341-4970-8009-1adb6011be4d" />
+
+
 ---
 
 ## 7. Launch the EC2 Web Server 🖥️
