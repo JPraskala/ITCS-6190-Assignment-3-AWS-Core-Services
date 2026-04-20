@@ -222,6 +222,16 @@ This instance will host a simple web page to display the Athena query results.
 7.  **Advanced details**: Scroll down and for **IAM instance profile**, select the **EC2 Instance Profile** you created.
 8.  Click **Launch instance**.
 
+### Explanation 
+The EC2 Web Server launches an instance that will host a web page to display the results from the queries I wrote before. It runs directly on AWS allowing for easily scalability. 
+
+### Approach
+My apporach to creating the EC2 Web Server was reading the instructions and making sure I have everything setup correctly. For example, I had some difficulty setting up the Network Settings, but after carefully reading the instructions, I was able to figure it out.
+
+### Screenshot
+<img width="1918" height="897" alt="ec2_instance " src="https://github.com/user-attachments/assets/b6ffe2b1-5a66-4b2b-be66-567b641967c8" />
+
+
 ---
 
 ## 8. Connect to Your EC2 Instance
@@ -234,6 +244,16 @@ This instance will host a simple web page to display the Athena query results.
     ```
 
 ---
+
+## Explanation
+This step connects the EC2 Instance onto the local machine; this is the first step to setting up the web page that will showcase the query results.
+
+### Approach
+For this step, I put my `.pem` file in a secure location so I would be able to easily locate it. Additionally, I navigated to my EC2 Dashboard to get the IP Address.
+
+### Screenshot 
+<img width="1918" height="985" alt="step_8 " src="https://github.com/user-attachments/assets/5334bf63-7af6-4fa9-8ab9-a21d5f36962a" />
+
 
 ## 9. Set Up the Web Environment
 
@@ -253,6 +273,16 @@ Once connected via SSH, run the following commands to install the necessary soft
     ```
 
 ---
+
+### Explanation
+Once the SSH is connected, we need to ensure the proper packages are installed before we continue; this step makes sure Flask and boto3 are installed before continuing.
+
+### Approach 
+My approach was to simply copy and paste the commands above.
+
+### Screenshot
+<img width="1918" height="991" alt="step_9" src="https://github.com/user-attachments/assets/3c94a1ba-105a-40e6-bb0c-24117a962623" />
+
 
 ## 10. Create and Configure the Web Application
 
