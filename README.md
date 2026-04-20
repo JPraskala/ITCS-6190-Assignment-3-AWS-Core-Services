@@ -10,6 +10,17 @@ First, set up an S3 bucket with the following folder structure to manage the dat
     * **`raw/`**: For incoming raw data files.
     * **`processed/`**: For cleaned and filtered data output by the Lambda function.
     * **`enriched/`**: For storing athena query results.
+ 
+
+### Explanation
+The S3 Bucket stores the CSV files to manage the data workflow. The bucket will contain the raw CSV file containing the orders, and when a query is executed, those CSV files will be stored in the bucket.
+
+### Approach
+My approach to creating the bucket was to follow the same approach I used in the Hands-On activities. I kept all the default options except I changed the Bucket namespace to Account Regional namespace.
+
+### Screenshot
+<img width="1918" height="886" alt="s3_bucket" src="https://github.com/user-attachments/assets/7965d055-914d-46c9-bd20-fbe4dde21750" />
+
 
 ---
 
