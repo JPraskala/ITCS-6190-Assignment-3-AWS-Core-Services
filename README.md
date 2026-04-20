@@ -107,8 +107,7 @@ The Lambda Function will process the orders.csv file that will eventually be upl
 My approach to creating the Lambda Function was by following the instructions above and pasting the code from `LambdaFunction.py` to the Code Source editor.
 
 ### Screenshot
-<img width="1918" height="885" alt="lambda_function" src="https://github.com/user-attachments/assets/acdd3b21-fd13-4ae0-abe5-e4a8487fe319" />
-
+<img width="1918" height="897" alt="lambda_function" src="https://github.com/user-attachments/assets/2413e1d3-4cde-4118-b199-0c11a25d9a85" />
 
 ---
 
