@@ -328,6 +328,24 @@ My apporach was to copy and paste the Python web application code and update the
 
 ---
 
+### Explanation
+The python script starts the webpage, and the webpage outputs all the tables that are executed by the five queries.
+
+### Approach
+My approach to this step was to follow the instructions and navigate to the correct port using the proper IP address.
+
+### Screenshots
+#### First Screenshot
+<img width="1916" height="893" alt="dashboard_one" src="https://github.com/user-attachments/assets/5501f209-c9e4-446b-879e-f6d156e94086" />
+
+#### Second Screenshot
+<img width="1915" height="913" alt="dashboard_two" src="https://github.com/user-attachments/assets/42811a3a-9636-4f77-baa0-d53899cac32c" />
+
+#### Third Screenshot
+
+<img width="1918" height="910" alt="dashboard_three" src="https://github.com/user-attachments/assets/09a5d53a-910b-4fde-ac04-e3d3fefe9b82" />
+
+
 ## Important Final Notes
 
 * **Stopping the Server**: To stop the Flask application, return to your SSH terminal and press `Ctrl + C`.
